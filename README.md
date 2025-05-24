@@ -94,7 +94,7 @@ The **Event Transaction System** is a web-based application built for institutio
 
 ## 🧑‍💻 Developed By
 
-**huwamee**
+**huwamee** **&** **The Tito's**
 
 ---
 
