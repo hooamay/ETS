@@ -1,0 +1,107 @@
+CREATE DATABASE whoami; -- this is for administrator ( you can insert this multiple accounts for demonstration)
+
+INSERT INTO users (name, email, password, is_verified, verification_code, created_at) VALUES
+('Maria Elena Reyes', 'mariaelena.reyes@gmail.com', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, NULL, '2025-03-03 21:13:09'),
+('David Santos', 'davidsantos@cspc.edu.ph', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, 'ae85adbdd6b5135997a9d6cdceaf565d26ebaf832d3d8db257...', '2025-03-03 21:14:27'),
+('Sophia Gutierrez', 'sophiagutierrez@cspc.edu.ph', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, 'ee8c281c484a6223b07df65f2e2f869d58e12dd543866f4917...', '2025-03-03 21:15:20'),
+('Liam Cruz', 'liamcruz@cspc.edu.ph', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, '7ce95951a74b773490eea617287a4213c6b8f06e135a448281...', '2025-03-03 21:15:50'),
+('Olivia Garcia', 'oliviagarcia@gmail.com', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, 'b24bef516b13dc63fc744add419892db9840a3cd87714e7ec8...', '2025-03-03 21:16:36'),
+('Ethan Torres', 'ethantorres@gmail.com', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, 'bfd72ae80d83921b2e0842e099b9daf747de44dfa988aca24f...', '2025-03-03 21:16:59'),
+('Ava Morales', 'avamorales@gmail.com', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, '249fe4f436639f43184c5fef9e46bb5edc0821f29fccb48051...', '2025-03-03 21:17:39'),
+('Mason Alonzo', 'masonalonzo@gmail.com', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, 'add492dda48d6c657cf09e4e45a9d412a5d08d5a6c8ddfe1a3...', '2025-03-03 21:17:50'),
+('Emma Ramos', 'emmaramos@gmail.com', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, '808d66f39ef9b5d01209a08957801f6d54a976aca6e0925992...', '2025-03-03 21:18:42'),
+('James Mendoza', 'jamesmendoza@gmail.com', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, 'a07ca7e2c23632741ad753a3eb27f507fe8f5d4ac5d8ea0582...', '2025-03-03 21:19:25'),
+('Lucas Ramirez', 'lucasramirez@gmail.com', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, '001c5879e02e1c45271cbef17c6da1dff51c04be42207f6022...', '2025-03-03 21:19:49'),
+('Charlotte Navarro', 'charlottenavarro@gmail.com', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, 'c8f735023b997dd2a2de06e5d81c1129f681279f02ff243c4a...', '2025-03-03 21:23:48'),
+('Amelia Perez', 'ameliaperez@cspc.edu.ph', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, 'ff762a4967598c759a281e2b059b4b0672e974f1e0c1593e94...', '2025-03-03 21:25:28'),
+('William Aquino', 'williamaquino@gmail.com', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, 'a3542b36525282892d25335f55de67a88ed027efba70823839...', '2025-03-03 21:31:27'),
+('Lily Bautista', 'lilybautista@cspc.edu.ph', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, '6f79396a0523d54b6aefdf49967962f91ddcadfa753efdde85...', '2025-03-03 21:32:05'),
+('Benjamin Cruz', 'benjamincruz@gmail.com', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, '80e2dc53039281918aaca01fa65da41aa5b52cabca419443ac...', '2025-03-03 21:32:26'),
+('Zoe Santos', 'zoesantos@gmail.com', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, 'e008ba9b9a6322e4ca0d2a91ce1a7a62d10641bfcb6962b14d...', '2025-03-03 21:32:34'),
+('Jack Alvarez', 'jackalvarez@cspc.edu.ph', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, '9ca12df2b369fe05452cb89d8131778513f651c4d979ae9047...', '2025-03-03 21:33:17'),
+('Grace Hernandez', 'gracehernandez@gmail.com', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, 'de3cd197e027a487d60a6be5d5c21de4404c4466d193a45a8b...', '2025-03-03 21:33:34'),
+('Mia Valdez', 'miavaldez@gmail.com', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, 'a397772dba159394471788e3f49aa3e649a8c503f85417d39e...', '2025-03-03 21:33:44'),
+('Alexander Reyes', 'alexanderreyes@gmail.com', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, '43323dd8ecf08628b399442ad2e0c16a1a999ce859bcf1972b...', '2025-03-03 21:34:04'),
+('Zara Mendoza', 'zaramendoza@gmail.com', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, 'f3b58a0b2357fc62abe98be105199a312597a61b51e7fe6364...', '2025-03-03 21:34:18'),
+('Sophia Garcia', 'sophiagarcia@gmail.com', '$2y$10$3sDWoqLJjLfTmtmzj1wxIuY7kd7KS3Gl8kzGqzDQRtu', 0, 'ebbe796bcc324b525305b6ed75e341249d45620bef4ac94a11...', '2025-03-03 21:34:39');
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CREATE DATABASE project;
+
+USE project;
+
+-- Create 'users' table
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    is_verified BOOLEAN DEFAULT FALSE,
+    verification_code VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create 'otp_codes' table
+CREATE TABLE IF NOT EXISTS otp_codes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    otp_code VARCHAR(6) NOT NULL,
+    expiry_time INT NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+-- Create 'events' table
+CREATE TABLE IF NOT EXISTS events (
+    event_id INT AUTO_INCREMENT PRIMARY KEY,
+    event_name VARCHAR(255) NOT NULL,
+    event_date DATETIME NOT NULL,
+    event_fee DECIMAL(10, 2) NOT NULL,
+    status TINYINT(1) NOT NULL DEFAULT 1
+);
+
+-- Create 'payments' table
+CREATE TABLE IF NOT EXISTS payments (
+    payment_id INT AUTO_INCREMENT PRIMARY KEY,
+    event_id INT NOT NULL, 
+    amount_paid DECIMAL(10, 2) NOT NULL,
+    payment_date DATETIME NOT NULL,
+    status TINYINT(1) NOT NULL DEFAULT 1, 
+    FOREIGN KEY (event_id) REFERENCES events(event_id) ON DELETE CASCADE
+);
+
+-- Create an index on the 'email' field for faster lookups
+CREATE INDEX idx_email ON users(email);
+
+
+INSERT INTO events (event_name, event_date, event_fee, status)
+VALUES 
+    ('Music Festival', '2025-07-10 18:00:00', 200.00, 0),
+    ('Art Exhibition', '2025-06-20 10:00:00', 50.00, 0),
+    ('Charity Run', '2025-08-05 07:00:00', 20.00, 0),
+    ('Cooking Class', '2025-05-15 15:00:00', 150.00, 0),
+    ('Tech Conference', '2025-09-22 09:00:00', 250.00, 0),
+    ('Fashion Show', '2025-06-25 19:00:00', 100.00, 0),
+    ('Comedy Night', '2025-07-02 20:00:00', 40.00, 0),
+    ('Dance Competition', '2025-08-12 18:00:00', 60.00, 0),
+    ('Marathon', '2025-10-01 06:00:00', 30.00, 0),
+    ('Food Festival', '2025-07-20 11:00:00', 70.00, 0),
+    ('Film Screening', '2025-08-14 21:00:00', 25.00, 0),
+    ('Sports Tournament', '2025-06-10 08:00:00', 120.00, 0),
+    ('Wine Tasting', '2025-09-01 17:00:00', 80.00, 0),
+    ('Poetry Reading', '2025-05-30 18:30:00', 10.00, 0),
+    ('Yoga Retreat', '2025-07-25 08:00:00', 200.00, 0);
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DELETE FROM users;
+ALTER TABLE users AUTO_INCREMENT = 1;
+
+DELETE FROM events;
+ALTER TABLE events AUTO_INCREMENT = 1;
+
+DELETE FROM otp_codes;
+ALTER TABLE otp_codes AUTO_INCREMENT = 1;
+
+DELETE FROM payments;
+ALTER TABLE payments AUTO_INCREMENT = 1;
